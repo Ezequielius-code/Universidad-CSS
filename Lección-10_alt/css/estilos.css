@@ -1,0 +1,87 @@
+h1{
+    text-align: center;
+    color: hotpink;
+    border: 5px dashed indigo;
+    border-radius: 5px;
+}
+div.contenedor{
+    border: 3px double palevioletred;
+    border-radius: 3px;
+    width: 30%;
+    height: 100px;
+    padding: 5px;
+    margin: auto;
+    /*La propiedad de Overflow sólo se puede usar
+    si se especifica una altura(height) para el div,
+    de lo contrario el mismo se expande y muestra 
+    todo el contenido*/
+    /*overflow: visible;*/
+    /*overflow: hidden;*/
+    /*overflow: scroll;*/
+    overflow: auto;
+}
+div.contenedor.flotado_izq{
+    width: 20%;
+    margin: 0;
+    float: left;
+}
+div.contenedor.flotado_der{
+    width: 20%;
+    margin: 0;
+    float: right;
+}
+div.contenedor.centrado{
+    padding-top: 20px;
+    clear: both;
+    border: none;
+    width: 100%;
+    height: 60px;
+}
+div.scroll_x{
+    border: 3px double palevioletred;
+    border-radius: 3px;
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    margin: auto;
+    overflow-x: scroll;
+}
+p{
+    width: max-content;
+    padding: 0;
+    margin: 0;
+}
+div.contenedor_display{
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 5px solid cyan;
+    border-radius: 10px;
+    padding: 15px;
+}
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    background-color: khaki;
+    border: 1px solid darkkhaki;
+    height: 30px;
+    padding: 5px;
+    display: inline-block;
+}
+.menu{
+    list-style-type: none;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    background-color: darkmagenta;
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+    color: floralwhite;
+}

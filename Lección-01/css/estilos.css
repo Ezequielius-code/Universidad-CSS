@@ -1,0 +1,20 @@
+/*Selector universal. Aplica los
+estilos a toda la página*/
+*{
+    background-color: ghostwhite;
+    color: cornflowerblue;
+}
+h1{
+    color: aqua !important;
+
+}
+#h2title{
+    color: crimson;
+    text-align: center;
+}
+.centrar{
+    text-align: center;
+}
+.texto_grande{
+    font-size: 20px;
+}

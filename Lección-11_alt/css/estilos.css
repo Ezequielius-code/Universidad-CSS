@@ -1,0 +1,76 @@
+html{
+    height: 1100px;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(orangered, orange);
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid peachpuff;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: lightgoldenrodyellow;
+    color: orangered;
+    text-align: center;
+}
+div.contenedor:hover{
+    background-color: palegoldenrod;
+    border-color: gold;
+}
+div.contenedor.oculto p{
+    display: none;
+}
+div.contenedor.oculto:hover p{
+    display: block;
+    background-color: tomato;
+    color: peachpuff;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+div.contenedor.primero p:first-child{
+    font-variant: small-caps;
+}
+div.contenedor.elementos p::selection{
+    color: lightgoldenrodyellow;
+    background-color: orangered;
+}
+div.contenedor.elementos p::first-line{
+    font-variant: small-caps;
+    color: coral;
+}
+div.contenedor.elementos p::first-letter{
+    color: darksalmon;
+    font-size: 1.5em;
+}
+div.contenedor.elementos p::before{
+    content: "- ";
+}
+div.contenedor.elementos p::after{
+    content: " -";
+}
+div.contenedor_imagen{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid peachpuff;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: lightgoldenrodyellow;
+    color: orangered;
+    text-align: center;
+}
+img{
+    opacity: .3;
+}
+img:hover{
+    opacity: 1;
+}

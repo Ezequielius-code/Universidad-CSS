@@ -1,0 +1,6 @@
+h1, h2, p{
+    color: crimson;
+}
+p.centrar{
+    text-align: center;
+}

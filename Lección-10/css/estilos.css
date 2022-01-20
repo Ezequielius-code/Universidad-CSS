@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+p{
+    padding-bottom: 2000px;
+    margin-top: 50px;
+    text-align: center;
+}
+.caja{
+    width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+}
+.uno{
+    /*La posición static, no permite
+    ajustar top, right, bottom y left*/
+    position: static;
+}
+.dos{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    height: 30px;
+}
+.tres{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    border: 3px solid firebrick;
+}
+.cuatro{
+    /*La posición absoluta, sólo puede usarse
+    en un div con una posición diferente de static*/
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    border: 3px solid firebrick;
+}
+.cinco{
+    position: sticky;
+    margin-top: 60px;
+    top: 10px;
+    border: 3px solid firebrick;
+}
